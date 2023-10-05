@@ -5,8 +5,8 @@ st.set_page_config(layout="wide")
 
 # Customize the sidebar
 markdown = """
-Web App URL: <https://geotemplate.streamlit.app>
-GitHub Repository: <https://github.com/giswqs/streamlit-multipage-template>
+Web App URL: https://geospectra-geospatial-data-qvmpqnfotbtjjawtcdfgwa.streamlit.app/Interactive_Map
+GitHub Repository: https://github.com/rajshivthare21/Geospectra-geospatial-data
 """
 
 st.sidebar.title("About")
@@ -15,7 +15,7 @@ logo = "https://i.imgur.com/UbOXYAU.png"
 st.sidebar.image(logo)
 
 # Customize page title
-st.title("Streamlit for Geospatial Applications")
+st.title("Geospectra for geo spatial data")
 
 st.markdown(
     """
